@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Timo Taskinen <timo.taskinen@iki.fi>
+LABEL maintainer="Timo Taskinen <timo.taskinen@iki.fi>"
 
 RUN apt-get update && apt-get install -y \
   cmake \
