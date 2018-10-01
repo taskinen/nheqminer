@@ -1,6 +1,6 @@
 # Equihash miner for NiceHash compiled with CPU_XENONCAT support.
 
-Based on latest source as of image build time. Compiles in Ubuntu 16.04.
+Based on latest source as of image build time.
 
 Source code and instructions: https://github.com/nicehash/nheqminer
 
