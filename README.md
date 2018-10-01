@@ -1,12 +1,18 @@
 # Equihash miner for NiceHash compiled with CPU_XENONCAT support.
 
-Based on latest source as of this image's push time. Compiled in Ubuntu 16.04.
+Based on latest source as of image build time. Compiles in Ubuntu 16.04.
 
 Source code and instructions: https://github.com/nicehash/nheqminer
 
 ## tl;dr
 
-`docker run -d -ti taskinen/nheqminer -u <YOUR_BITCOIN_ADDRESS>`
+`git clone git@github.com:taskinen/nheqminer.git`
+
+`cd nheqminer`
+
+`docker build -t nheqminer .`
+
+`docker run -d -ti nheqminer -u <YOUR_BITCOIN_ADDRESS>`
 
 That will start the miner in background and pay the profits to your Bitcoin address.
 
